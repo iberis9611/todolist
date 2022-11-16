@@ -1,0 +1,66 @@
+main {
+    width: 450px;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 50px;
+    }
+
+    form {
+        border: 1px solid black;
+        display: flex;
+        margin-bottom: 10px;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            padding: 10px;
+            font-size: 25px;
+            border-radius: 15px;
+            border: 0.5px solid black;
+            width: 350px;
+        }
+
+        .submit {
+            background: gray;
+            color: white;
+            font-size: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    }
+
+    article {
+        border: 1px solid black;
+        display: flex;
+        font-size: 25px;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+        
+        input[type=checkbox] {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+
+        .trash {
+            background: white;
+            color: palevioletred;
+            font-size: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    }
+
+    .new-todo, .todo {
+        width: 380px;
+    }
+
+    button {
+        height: 43.5px;
+        width: 43.5px;
+    }
+    
+}
